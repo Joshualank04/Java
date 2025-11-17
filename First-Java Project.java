@@ -95,3 +95,22 @@
   </script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>We have 2 large premium hoodies left?</h2>
+
+<p>One is a zip up, and the other is a full hoodie.</p>
+
+<p>Please select which hoodie syle you would like.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Large Zipup</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Large Non Zip Up</button>
+
+</body>
+</html>
